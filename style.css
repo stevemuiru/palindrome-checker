@@ -6,7 +6,7 @@ body{
     justify-content: center;
     height: 100vh;
     margin: 0;
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 h1{
     color: oklch(98.5% 0.002 247.839)
@@ -16,12 +16,12 @@ h1{
     width: 350px;
     border-radius: 22px;
     background-color: beige;
-    padding: 70px;
+    padding: 35px;
     box-shadow: 5px 10px purple;
-
 }
 input{
     border: 0;
+    border-bottom: 2px solid purple;
 }
 #check-btn{
   background-color: purple;
@@ -33,4 +33,18 @@ input{
 
 #check-btn:hover{
     cursor: pointer;
+}
+
+.box-2{
+    height: 100px;
+    width: 350px;
+    background-color: oklch(26.6% 0.065 152.934);
+    margin-top: 3.5rem;
+    padding: 12px;
+    border-radius: 22px;
+}
+
+.description{
+  color: oklch(97.9% 0.021 166.113);
+  font-size: 17px;
 }
